@@ -99,5 +99,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository:
-    github: https://github.com/shetia/shetia.github.io.git,gh-pages
+  repo: https://github.com/shetia/blog
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
