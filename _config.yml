@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://shetia.github.io/blog/
+##如果站点位于子目录中，则将url设置为“http://yoursite.com/child”，将根目录设置为“/child/”
+url: https://shetia.github.io/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -22,13 +23,13 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: /blog/source
-public_dir: /blog/public
-tag_dir: /blog/tags
-archive_dir: /blog/archives
-category_dir: /blog/categories
-code_dir: /blog/downloads/code
-i18n_dir: :/blog/lang
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
 skip_render:
 
 # Writing
@@ -41,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
