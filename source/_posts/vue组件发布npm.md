@@ -3,6 +3,9 @@ title: vue组件发布npm
 date: 2020-06-28 15:56:10
 tags: vue
 ---
+<meta name="referrer" content="no-referrer"/>
+
+
 ## vue组件发布npm整个流程
 
 记录一下组件发布流程，参考[Vue cli3 库模式搭建组件库并发布到 npm](http://www.rxshc.com/180.html)
